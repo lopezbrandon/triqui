@@ -1,2 +1,2 @@
 # triqui
-# juego de triqui con bootstrap y elementos basicos de html,css y javascript.
+ juego de triqui con bootstrap y elementos basicos de html,css y javascript.
