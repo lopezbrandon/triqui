@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Triqui</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    
+    <script src="https://code.jquery.com/jquery-1.11.3.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+   
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+           <div class="col-md-2">
+               <div class="row points text-margin">
+                   <div class="col-md-6">X : </div>
+                   <div id="x" class="col-md-6">0</div>
+                   <div class="col-md-6">O : </div>
+                   <div id="o" class="col-md-6">0</div>
+               </div>
+           </div>
+            <div class="col-md-8">
+                <div class="row triqui">
+                    <div id="1" class="col-md-4 box triqui-top-left"></div>
+                    <div id="2" class="col-md-4 box triqui-top-center"></div>
+                    <div id="3" class="col-md-4 box triqui-top-right"></div>
+                    <div id="4" class="col-md-4 box triqui-left"></div>
+                    <div id="5" class="col-md-4 box triqui-center"></div>
+                    <div id="6" class="col-md-4 box triqui-right"></div>
+                    <div id="7" class="col-md-4 box triqui-bottom-left"></div>
+                    <div id="8" class="col-md-4 box triqui-bottom-center"></div>
+                    <div id="9" class="col-md-4 box triqui-bottom-right"></div>
+                </div>
+            </div>
+            <div class="col-md-2 text-margin">
+                haga click en las casillas para comenzar, se empieza con la "x"
+                <br>
+                <button class="btn btn-default" onClick="refresh()"><span class="glyphicon glyphicon-repeat" aria-hidden="true"></span> Reiniciar</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
